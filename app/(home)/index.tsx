@@ -45,9 +45,9 @@ const SearchScreen = () => {
           style={styles.input}
           value={query}
           onChangeText={setQuery}
-          placeholder="Enter search term"
+          placeholder="Enter search terms..."
         />
-        <Button title="Search" onPress={handleSearch} />
+        <Button title="Search News" onPress={handleSearch} />
       </View>
 
       <FlatList
